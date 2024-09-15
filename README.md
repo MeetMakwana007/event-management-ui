@@ -1,9 +1,11 @@
 # Event Management Dashboard
 
 ## Overview
+
 The Event Management Dashboard is a React-based application that allows users to manage and interact with events. It includes features for searching, adding, updating, and deleting events. The application also provides a responsive design and integrates with Redux for state management.
 
 ## Features
+
 - Search Events: Search events by name, players, genre, or game.
 - Add New Event: Add new events to the dashboard.
 - Edit Event: Update existing events.
@@ -11,11 +13,14 @@ The Event Management Dashboard is a React-based application that allows users to
 - Responsive Design: The dashboard is designed to be responsive and user-friendly on various devices.
 
 ## Technologies Used
+
 - React: For building the user interface.
 - Material-UI: For UI components and styling.
 - Redux: For state management.
 - Formik: For form handling and validation.
 - Yup: For form validation schema.
+
+## Vercel Deployed version: https://event-management-ui-nine.vercel.app
 
 # Getting Started with Create React App
 
