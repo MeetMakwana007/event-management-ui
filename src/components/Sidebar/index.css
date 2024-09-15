@@ -1,0 +1,39 @@
+.sidebar {
+  width: 180px;
+  flex-shrink: 0;
+}
+
+.sidebar .MuiDrawer-paper {
+  width: 180px;
+  box-sizing: border-box;
+  background-color: #6d08c3;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar-top-section {
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+
+.sidebar-logo {
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+
+.sidebar-list-item {
+  cursor: pointer;
+}
+
+.sidebar-list-item-text {
+  margin-left: 16px;
+}
+
+.sidebar-bottom-section {
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+}

@@ -1,0 +1,129 @@
+.dashboard-container {
+  padding: 2rem;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 3rem;
+  border-bottom: 2px solid #1e1e1e;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.dashboard-header .header-search-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (min-width: 600px) {
+  .dashboard-header {
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .dashboard-header .header-search-container {
+    width: 60%;
+    flex-direction: row;
+  }
+}
+
+.dashboard-header .header-search-input {
+  flex: 1;
+  border: none;
+  border-radius: 20px;
+  background-color: #333;
+}
+
+.dashboard-header .header-search-input {
+  flex: 1;
+  border: none;
+  border-radius: 20px;
+  background-color: #333;
+}
+
+/* Remove border when the input is focused */
+.dashboard-header
+  .header-search-input
+  .MuiOutlinedInput-root
+  .MuiOutlinedInput-notchedOutline {
+  border-color: transparent;
+}
+
+/* Remove border color on hover */
+.dashboard-header
+  .header-search-input
+  .MuiOutlinedInput-root:hover
+  .MuiOutlinedInput-notchedOutline {
+  border-color: transparent;
+}
+
+/* Remove border color when the input is focused */
+.dashboard-header
+  .header-search-input
+  .MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: transparent;
+}
+
+.dashboard-header .header-search-input .MuiInputBase-input {
+  color: white;
+  padding: 13px 20px;
+}
+
+.dashboard-header .header-search-button {
+  background-color: #6d08c3;
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
+.dashboard-header .add-event-button {
+  background-color: #6d08c3;
+  border-radius: 20px;
+  padding: 5px 20px;
+  margin-top: 2rem;
+}
+
+@media (min-width: 600px) {
+  .dashboard-header .add-event-button {
+    margin-top: 0;
+  }
+}
+
+.dashboard-content {
+  padding-top: 1rem;
+}
+
+.dashboard-content .events-title {
+  padding-bottom: 1rem;
+}
+
+.dashboard-content .loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dashboard-content .events-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dashboard-content .events-grid-item {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .dashboard-content .events-grid-item {
+    width: 50%;
+  }
+
+  .dashboard-content .events-grid-item.md {
+    width: 25%;
+  }
+}

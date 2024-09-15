@@ -1,0 +1,62 @@
+.dialog-title {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.dialog-content {
+  background-color: #1e1e1e;
+  color: white;
+  padding-top: unset !important;
+}
+
+.event-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.thumbnail-upload {
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.upload-button {
+  color: white;
+}
+
+.form-field {
+  background-color: #333333;
+  border-radius: 4px;
+}
+
+.form-field .MuiInputBase-root {
+  color: white;
+}
+
+.form-field .MuiInputLabel-root {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.form-field .MuiOutlinedInput-notchedOutline {
+  border: none;
+}
+
+.dialog-actions {
+  background-color: #1e1e1e;
+  padding: 16px 24px;
+}
+
+.next-btn {
+  padding: 6px 20px !important;
+  background-color: rgba(109, 8, 195, 1) !important;
+  color: white !important;
+  border-radius: 10px !important;
+}
+
+.next-btn:hover {
+  background-color: #7b1fa2;
+}
